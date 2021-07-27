@@ -58,3 +58,14 @@ spec:
     email: guest@example.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [team-a]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: krzysztof.regiel
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: krzysztof.regiel@qiagen.com
+    picture: https://avatars.dicebear.com/api/male/avarage-qiagener.svg
+  memberOf: [team-a]
