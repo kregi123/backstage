@@ -68,4 +68,4 @@ spec:
     # Intentional no displayName for testing
     email: krzysztof.regiel@qiagen.com
     picture: https://avatars.dicebear.com/api/male/avarage-qiagener.svg
-  memberOf: [team-a]
+  memberOf: [team-a, platform]
